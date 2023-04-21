@@ -1,0 +1,479 @@
+html{
+    font-family: normalidad-wide, sans-serif;
+    max-width: 1920px;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    align-content: center;
+    scroll-behavior:smooth;
+    color: rgb(45 45 45);
+}
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+}
+
+p{
+    font-size: 14px;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    margin-right: 2%;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(45, 45, 45);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+li a:hover{
+    color: rgb(137, 137, 137);
+}
+
+.menu img{
+    /*margin: auto 0;*/
+    padding: 0;
+    margin: -55px 0 0 -20px;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+}
+
+main img{
+    width: 550px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin: auto 0;
+}
+
+#waste a{
+    /*transition: 1s ease;*/
+
+    transition: .5s ease;
+}
+#waste:hover{
+    /*border-radius: 10%;
+    transition: 1s ease;*/
+
+    box-shadow:
+    1px 1px #373737,
+    2px 2px #373737,
+    3px 3px #373737,
+    4px 4px #373737,
+    5px 5px #373737,
+    6px 6px #373737;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+    }
+
+.content > div {
+    /*flex: 50%;*/
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+  }
+
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ALL CONTENT PAGES*/
+
+.content1{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /*background-color: #0510e3;
+    color: white;*/
+
+}
+
+.content1 img{
+    width: 500px;
+}
+
+.content1 h1{
+    font-size: 40px;
+    width: 20%;
+}
+
+.content1 p{
+    font-size: 16px;
+}
+
+#random{
+    display: flex;
+    text-align: center;
+   align-items: center;
+}
+
+#paragraph-art{
+    width: 40%;
+    margin-left: 5%;
+}
+
+#space{
+    padding-bottom: 300px;
+    color: white;
+}
+
+/* FIRST SECTION */
+
+.first-section{
+    height: 100%;
+    padding-top: 100px;
+}
+
+/*BAKGRUNDSFÄRGEN PÅ WELCOME*/
+.three h3 {
+    background: url(bakgrund\ hemsida.png);
+    margin: 0.5rem;
+    /*margin-left: 15px;*/
+    display: inline-flex;
+    /*font-size: 10rem;*/
+    font-size: 150px;
+    line-height: 160px;
+    background-position: 0 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #5b728a54;
+    animation: animatedOne 10s linear infinite;
+    width: 100%; 
+    max-width: 1920px;
+}
+
+.three{
+    max-width: 1920px;
+}
+
+@keyframes animatedOne {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
+#scroll-container {
+    border: 1px solid white;
+    padding: 50px;
+    color: rgb(45, 45, 45);
+    overflow: hidden;
+}
+
+  #scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+
+    font-size: 16px;
+    padding-top: 100px;
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  } 
+
+.work{
+    padding-bottom: 50px;
+    font-size: 50px;
+    cursor:default;
+    float: left;
+}
+
+.work:hover .letter-change {
+    font-family: "gastromond", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+a{
+    font-family: normalidad-wide, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 42;
+}
+
+a:hover .letter-change {
+    font-family: "gastromond", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer{
+    /*display: flex;
+    justify-content: center;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    width: 100%;
+    padding: 100px;
+    margin-top: 100px;
+    max-width: 1920px;*/
+    
+    padding: 100px;
+  text-align: center;
+  /*background-color: #c7554b;*/
+    color: white;
+  margin-top: 300px;
+  background-image: url("bakgrund\ hemsida.png");
+  animation: animatedOne 10s linear infinite;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer img{
+    width: 20px;
+    height:20px;
+}
+
+/* CONTACT */
+
+.contact{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+#contact-background{
+    color: rgb(45 45 45);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#contact-background a{
+    color: rgb(45 45 45);
+}
+
+#contact-background a:hover{
+    color: rgb(137, 137, 137);
+}
+
+form input{
+    width: 400px;
+    height: 20px;
+    border: solid rgb(45, 45, 45);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+#message{
+    padding-bottom: 70px;
+}
+
+button{
+    background-color: white;
+    color: rgb(45, 45, 45);
+    border: solid rgb(45, 45, 45);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-top: 5%;
+    font-family: normalidad-wide, sans-serif;
+}
+
+button:hover{
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+#contact-text{
+    font-size: 100px;  
+}
+
+/* ABOUT */
+
+.about{
+    width: 500px;
+    max-width: 1920px;
+    cursor: pointer;
+    color: rgb(45 45 45);
+}
+
+.about h1{
+    font-size: 50px;
+}
+
+#about-section p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 640px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    html{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main img{
+        width: 400px;
+    }
+
+    .work{
+        font-size: 40px;
+    }
+
+    .three h3 {
+        background: url(bakgrund\ hemsida.png);
+        margin: 1.5rem;
+        display: inline-flex;
+        /*font-size: 10rem;*/
+        font-size: 50px;
+        line-height: 40px;
+        background-position: 0 0;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #5b728a54;
+        animation: animatedOne 30s linear infinite;
+        width: 50%;
+        margin: 0;
+    }
+
+    .three{
+        width: 50%;
+    }
+
+    .footer{
+        max-width: 640px;
+        padding: 100px;
+        text-align: center;
+        margin-top: 100px;
+        font: 12px;
+    }
+
+    .footer p{
+        font: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    html{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main img{
+        width: 320px;
+    }
+
+    .work{
+        font-size: 20px;
+    }
+
+    .three h3 {
+        background: url(bakgrund\ hemsida.png);
+        margin: 1.5rem;
+        display: inline-flex;
+        /*font-size: 10rem;*/
+        font-size: 20px;
+        line-height: 30px;
+        background-position: 0 0;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #5b728a54;
+        animation: animatedOne 30s linear infinite;
+        width: 100%;
+    }
+
+    .footer{
+        max-width: 320px;
+        padding: 100px;
+    text-align: center;
+    margin-top: 100px;
+    }
+  }
