@@ -167,6 +167,11 @@ main img{
     width: 1000px;
 }
 
+#random2 img{
+    width: 500px;
+    height: 500px;
+}
+
 #paragraph-art{
     width: 40%;
     margin-left: 5%;
