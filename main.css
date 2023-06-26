@@ -288,22 +288,15 @@ a:hover .letter-change {
     font-style: normal;
 }
 .footer{
-    /*display: flex;
-    justify-content: center;
-    background-color: rgb(45, 45, 45);
-    color: white;
-    width: 100%;
-    padding: 100px;
-    margin-top: 100px;
-    max-width: 1920px;*/
     
     padding: 100px;
-  text-align: center;
+    text-align: center;
   /*background-color: #c7554b;*/
     color: white;
-  margin-top: 300px;
-  background-image: url("bakgrund\ hemsida.png");
-  animation: animatedOne 10s linear infinite;
+    margin-top: 300px;
+    background-image: url("bakgrund\ hemsida.png");
+    animation: animatedOne 10s linear infinite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer a{
