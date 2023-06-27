@@ -41,12 +41,12 @@ ul {
     overflow: hidden;
   }
   
-  li {
+li {
     float: right;
     margin-right: 2%;
   }
   
-  li a {
+li a {
     display: block;
     color: rgb(45, 45, 45);
     text-align: center;
@@ -62,7 +62,7 @@ li a:hover{
 .menu img{
     /*margin: auto 0;*/
     padding: 0;
-    /*margin: -55px 0 0 -20px;*/
+    margin: 0 0 0 15px;
 }
 
 
@@ -194,7 +194,8 @@ main img{
     background: url(bakgrund\ hemsida.png);
     /*margin: 0.5rem;*/
     margin-left: 2rem;
-    margin-top: 0.5rem;
+    /*margin-top: 0.5rem;*/
+    margin-top: 4rem;
     margin-bottom: 0.5rem;
     display: inline-flex;
     /*font-size: 10rem;*/
@@ -291,12 +292,11 @@ a:hover .letter-change {
     
     padding: 100px;
     text-align: center;
-  /*background-color: #c7554b;*/
     color: white;
     margin-top: 300px;
     background-image: url("bakgrund\ hemsida.png");
     animation: animatedOne 10s linear infinite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
 }
 
 .footer a{
@@ -304,8 +304,8 @@ a:hover .letter-change {
 }
 
 .footer img{
-    width: 20px;
-    height:20px;
+    width: 15px;
+    height:15px;
 }
 
 /* CONTACT */
