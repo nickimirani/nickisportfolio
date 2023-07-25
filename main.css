@@ -297,6 +297,7 @@ a:hover .letter-change {
     background-image: url("bakgrund\ hemsida.png");
     animation: animatedOne 10s linear infinite;
     font-size: 12px;
+    
 }
 
 .footer a{
@@ -404,6 +405,10 @@ button:hover{
         width: 400px;
     }
 
+    #paragraph-art{
+        font-size: 12px;
+    }
+
     .work{
         font-size: 40px;
     }
@@ -445,6 +450,10 @@ button:hover{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    #paragraph-art{
+        font-size: 12px;
     }
 
     html{
