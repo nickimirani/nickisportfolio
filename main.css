@@ -347,15 +347,6 @@ a:hover .letter-change {
     color: rgb(137, 137, 137);
 }
 
-form input{
-    width: 400px;
-    height: 20px;
-    border: solid rgb(45, 45, 45);
-    padding: 5px;
-    border-radius: 5px;
-    margin-bottom: 5%;
-}
-
 #message{
     padding-bottom: 70px;
 }
@@ -387,19 +378,41 @@ button:hover{
 /* ABOUT */
 
 .about{
-    width: 500px;
+    width: 50%;
     max-width: 1920px;
-    cursor: pointer;
     color: rgb(45 45 45);
-}
-
-.about h1{
-    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin: auto 0;
 }
 
 #about-section p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Helvetica, sans-serif;
+    width: 60%;
+
 }
+
+#about-section{
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin: auto 0;
+
+    flex-wrap: wrap;
+
+    gap: 5%;
+
+    justify-content:flex-end;
+}
+
 
 @media only screen and (max-width: 640px) {
     main{
