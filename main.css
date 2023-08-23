@@ -442,16 +442,25 @@ button:hover{
         width: 50%;
     }
 
+    #about-section{
+        display: block;
+    }
+
     .footer{
         max-width: 640px;
         padding: 100px;
         text-align: center;
         margin-top: 100px;
         font: 12px;
+        background-color: #454545;
     }
 
     .footer p{
         font: 12px;
+    }
+
+    li a{
+        font-size: 12px;
     }
   }
 
@@ -493,10 +502,18 @@ button:hover{
         width: 100%;
     }
 
+    #about-section{
+        display: block;
+    }
+
     .footer{
-        max-width: 320px;
+        max-width: 350px;
         padding: 100px;
     text-align: center;
     margin-top: 100px;
+    }
+
+    li a{
+        font-size: 12px;
     }
   }
