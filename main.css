@@ -55,11 +55,12 @@ li {
   
 li a {
     display: block;
-    color: rgb(45, 45, 45);
+    /*color: rgb(45, 45, 45);*/
+    color: rgb(222, 222, 222);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10px;
   }
 
 li a:hover{
@@ -147,9 +148,6 @@ main img{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    /*background-color: #0510e3;
-    color: white;*/
-
 }
 
 .content1 img{
@@ -197,27 +195,45 @@ main img{
     padding-top: 100px;
 }
 
-/*BAKGRUNDSFÄRGEN PÅ WELCOME*/
-.three h3 {
-    background: url(bakgrund\ hemsida.png);
-    /*margin: 0.5rem;*/
+.firstpage-background{
+padding-bottom: 120px;
+    color: rgb(228, 228, 228);
+    /*opacity: 80%;*/
+    background-image: url("bakgrund\ hemsida\ 4.png");
+    animation: animatedOne 10s linear infinite;
+    font-size: 12px;
+    opacity: 80%;
+
+}
+
+.firstpage-background h3{
     margin-left: 2rem;
-    /*margin-top: 0.5rem;*/
     margin-top: 3rem;
     margin-bottom: 0.5rem;
     display: inline-flex;
-    /*font-size: 10rem;*/
-    /*font-size: 150px;*/
+    font-size: 150px;
+    word-break: break-word;
+    line-height: 160px;
+    background-position: 0 0;
+    animation: animatedOne 10s linear infinite;
+    max-width: 1920px;
+}
+
+/*BAKGRUNDSFÄRGEN PÅ WELCOME*/
+.three h3 {
+    background: url(bakgrund\ hemsida\ 2.png);
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    display: inline-flex;
     font-size: 150px;
     word-break: break-word;
     line-height: 160px;
     background-position: 0 0;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #75747492;
+    -webkit-text-fill-color: #78787877;
     animation: animatedOne 10s linear infinite;
-    /*width: 100%; */
     max-width: 1920px;
-
 }
 
 .three{
@@ -290,10 +306,9 @@ a{
     color: white;
     margin-top: 300px;
     /*opacity: 80%;*/
-    background-image: url("bakgrund\ hemsida.png");
+    background-image: url("bakgrund\ hemsida\ 4.png");
     animation: animatedOne 10s linear infinite;
     font-size: 12px;
-    filter: grayscale(50%);
     
 }
 
@@ -415,6 +430,18 @@ button:hover{
         width: 400px;
     }
 
+    #random1 img{
+        width: 300px;
+    }
+
+    #random img{
+        width: 300px;
+    }
+
+    .content1 h1{
+        font-size: 18px;
+    }
+
     #paragraph-art{
         font-size: 12px;
     }
@@ -482,6 +509,18 @@ button:hover{
 
     main img{
         width: 320px;
+    }
+
+    #random1 img{
+        width: 300px;
+    }
+
+    #reason img{
+        width: 300px;
+    }
+
+    .content1 h1{
+        font-size: 18px;
     }
 
     .work{
