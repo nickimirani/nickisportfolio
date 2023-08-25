@@ -60,7 +60,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
   }
 
 li a:hover{
@@ -199,7 +199,7 @@ main img{
 padding-bottom: 120px;
     color: rgb(228, 228, 228);
     /*opacity: 80%;*/
-    background-image: url("bakgrund\ hemsida\ 4.png");
+    background-image: url("bakgrund\ hemsida\ 2.png");
     animation: animatedOne 10s linear infinite;
     font-size: 12px;
     opacity: 80%;
@@ -221,7 +221,7 @@ padding-bottom: 120px;
 
 /*BAKGRUNDSFÄRGEN PÅ WELCOME*/
 .three h3 {
-    background: url(bakgrund\ hemsida\ 2.png);
+    background: url(bakgrund\ hemsida\ 4.png);
     margin-left: 2rem;
     margin-top: 3rem;
     margin-bottom: 0.5rem;
@@ -231,7 +231,7 @@ padding-bottom: 120px;
     line-height: 160px;
     background-position: 0 0;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #78787877;
+    -webkit-text-fill-color: #1c1c1c6e;
     animation: animatedOne 10s linear infinite;
     max-width: 1920px;
 }
