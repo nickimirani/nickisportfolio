@@ -221,7 +221,8 @@ padding-bottom: 120px;
 
 /*BAKGRUNDSFÄRGEN PÅ WELCOME*/
 .three h3 {
-    background: url(bakgrund\ hemsida\ 4.png);
+    /*background: url(bakgrund\ hemsida\ 4.png);*/
+    background-color: #373737;
     margin-left: 2rem;
     margin-top: 3rem;
     margin-bottom: 0.5rem;
