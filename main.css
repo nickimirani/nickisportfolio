@@ -172,11 +172,13 @@ main img{
 
 #random1 img{
     width: 1010px;
+    max-width: 1010px;
 }
 
 #random2 img{
     width: 500px;
     height: 500px;
+    max-width: 500px;
 }
 
 #paragraph-art{
@@ -237,7 +239,7 @@ padding-bottom: 120px;
     animation: animatedOne 10s linear infinite;
     max-width: 1920px;
 
-    cursor: url(cursor.png), auto;
+    cursor:default;
 
     overflow: hidden;
 }
@@ -383,26 +385,6 @@ a{
 #message{
     padding-bottom: 70px;
 }
-
-/*button{
-    background-color: white;
-    color: rgb(45, 45, 45);
-    border: solid rgb(45, 45, 45);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 16px;
-    margin-top: 5%;
-    font-family: normalidad-wide, sans-serif;
-}
-
-button:hover{
-    background-color: rgb(45, 45, 45);
-    color: white;
-}*/
 
 #contact-text{
     font-size: 100px;  
