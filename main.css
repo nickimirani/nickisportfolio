@@ -296,7 +296,7 @@ padding-bottom: 120px;
 }
 .horizontal-scrolling-items {
   display: flex;
-  font-size: 40px;
+  font-size: 35px;
   width: 2600px;
   animation-name: infiniteScroll;
   animation-duration: 20s;
