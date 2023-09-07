@@ -294,7 +294,7 @@ padding-bottom: 120px;
   width: 100%;
   overflow-x: hidden;
 
-  padding-top: 20px;
+  padding-top: 50px;
 }
 .horizontal-scrolling-items {
   display: flex;
@@ -327,8 +327,9 @@ a{
     color: white;
     margin-top: 300px;
     /*opacity: 80%;*/
-    background-image: url("bakgrund\ hemsida\ 4.png");
-    animation: animatedOne 10s linear infinite;
+    /*background-image: url("bakgrund\ hemsida\ 4.png");
+    animation: animatedOne 10s linear infinite;*/
+    background-color: rgb(222, 222, 222);
     font-size: 12px;
     
 }
