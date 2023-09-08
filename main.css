@@ -225,11 +225,11 @@ padding-bottom: 120px;
 /*BAKGRUNDSFÄRGEN PÅ WELCOME*/
 .three h3 {
     /*background: url(bakgrund\ hemsida\ 4.png);*/
-    background-color: #373737;
+    /*background-color: #373737;*/
     margin-left: 2rem;
     margin-top: 3rem;
     margin-bottom: 0.5rem;
-    display: inline-flex;
+    /*display: inline-flex;*/
     font-size: 150px;
     word-break: break-word;
     line-height: 160px;
@@ -240,9 +240,26 @@ padding-bottom: 120px;
     max-width: 1920px;
 
     cursor:default;
-
     overflow: hidden;
+
+   /* background: linear-gradient(to right, rgb(171, 171, 171),rgb(166, 0, 28),rgb(0, 30, 255));
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:rgb(44, 44, 44);
+    transition: color .2s ease-in-out;
+    text-transform:uppercase;*/
 }
+
+.three h3:hover{
+    color:rgba(0,0,0,0);
+}
+
+@keyframes rainbow { 
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
+  }
 
 /*.three h3 span{
     
