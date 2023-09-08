@@ -235,8 +235,8 @@ padding-bottom: 120px;
     line-height: 160px;
     background-position: 0 0;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #1c1c1c6e;
-    animation: animatedOne 10s linear infinite;
+    /*-webkit-text-fill-color: #1c1c1c6e;*/
+    /*animation: animatedOne 10s linear infinite;*/
     max-width: 1920px;
 
     cursor:default;
