@@ -223,10 +223,10 @@ padding-bottom: 120px;
 .three h3 {
     /*background: url(bakgrund\ hemsida\ 4.png);*/
     color: #373737;
-    margin-left: 2rem;
+   /*margin-left: 2rem;*/
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    display: inline-flex;
+    /*display: inline-flex;*/
     font-size: 150px;
     word-break: break-word;
     line-height: 160px;
@@ -239,24 +239,8 @@ padding-bottom: 120px;
     cursor:default;
     overflow: hidden;
 
-   /* background: linear-gradient(to right, rgb(171, 171, 171),rgb(166, 0, 28),rgb(0, 30, 255));
-    animation: rainbow 2s ease-in-out infinite;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color:rgb(44, 44, 44);
-    transition: color .2s ease-in-out;
-    text-transform:uppercase;*/
 }
 
-/*.three h3:hover{
-    color: rgb(222, 222, 222);
-}*/
-
-@keyframes rainbow { 
-    0%{background-position:left}
-    50%{background-position:right}
-    100%{background-position:left}
-  }*/
 
 /*.three h3 span{
     
@@ -265,16 +249,25 @@ padding-bottom: 120px;
 }*/
 
 #one{
-    animation: reveal 0.5s;
+    animation: reveal 0.8s;
+    display: block;
 }
 
 #two{
-    animation: reveal 0.8s;
+    animation: reveal 1.1s;
+    display: block;
 }
 
 #three{
-    animation: reveal 1.1s;
+    animation: reveal 1.5s;
+    display: block;
 }
+
+#four{
+    animation: reveal 1.8s;
+   display: block;
+}
+
 
 @keyframes reveal {
     0% {
@@ -304,27 +297,37 @@ padding-bottom: 120px;
   from {transform: translateX(0)}
   to {transform: translateX(-50%)}
 }
+
 .container {
   width: 100%;
   overflow-x: hidden;
 
   padding-top: 50px;
+  padding-bottom: 0;
 }
+
+.container2 {
+    width: 100%;
+    overflow-x: hidden;
+  
+    padding: 0;
+}
+
 .horizontal-scrolling-items {
   display: flex;
-  font-size: 35px;
+  font-size: 32px;
   width: 2600px;
+  color: rgb(222, 222, 222);
   animation-name: infiniteScroll;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+ 
 
-  color: rgb(222, 222, 222);
 }
 .horizontal-scrolling-items__item {
   white-space: nowrap;
 }
-
 
 a{
     font-family: normalidad-wide, sans-serif;
