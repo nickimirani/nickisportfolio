@@ -142,10 +142,13 @@ main img{
     align-content: center;
     justify-self: center;
     justify-items: center;
-    margin: auto 0;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .content1 img{
@@ -164,18 +167,21 @@ main img{
 #random{
     display: flex;
     text-align: center;
-   align-items: center;
+    align-items: center;
 }
 
 #random1 img{
-    width: 1010px;
+   /* width: 1010px;
+    max-width: 1010px;*/
+    width: 100%;
+    height: auto;
     max-width: 1010px;
 }
 
 #random2 img{
-    width: 500px;
-    height: 500px;
-    max-width: 1010px;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
 }
 
 #paragraph-art{
