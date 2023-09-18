@@ -353,7 +353,6 @@ a{
 .footer{
     
     padding: 100px;
-    text-align: center;
     color: white;
     margin-top: 200px;
     /*opacity: 80%;*/
@@ -361,17 +360,16 @@ a{
     animation: animatedOne 10s linear infinite;*/
     background-color: rgb(45 45 45);
     font-size: 12px;
+    bottom: 0;
+    left: 0;
+    right: 0;
     
 }
 
-.footer a{
-    color: white;
-}
-
-.footer img{
+/*.footer img{
     width: 15px;
     height:15px;
-}
+}*/
 
 /* CONTACT */
 
@@ -498,15 +496,6 @@ a{
         display: block;
     }
 
-    .footer{
-        max-width: 640px;
-        padding: 100px;
-        text-align: center;
-        margin-top: 100px;
-        font: 12px;
-        background-color: #454545;
-    }
-
     .footer p{
         font: 12px;
     }
@@ -527,7 +516,8 @@ a{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin: 0 auto;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     html{
@@ -553,11 +543,11 @@ a{
     }
 
     .content1 h1{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #paragraph-art{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .work{
@@ -581,15 +571,6 @@ a{
         width:100%;
     }
 
-    .footer{
-        max-width: 640px;
-        padding: 100px;
-        text-align: center;
-        margin-top: 100px;
-        font: 12px;
-        background-color: #454545;
-    }
-
     .footer p{
         font: 12px;
     }
@@ -608,10 +589,32 @@ a{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        justify-self: center;
+        justify-items: center;
+    }
+
+    body{
+        
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            justify-self: center;
+            justify-items: center;
+        
     }
 
     #paragraph-art{
-        font-size: 11px;
+        font-size: 10px;
     }
 
     html{
@@ -636,7 +639,7 @@ a{
     }
 
     .content1 h1{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .work{
@@ -650,13 +653,6 @@ a{
 
     #about-section{
         display: block;
-    }
-
-    .footer{
-        max-width: 350px;
-        padding: 100px;
-    text-align: center;
-    margin-top: 100px;
     }
 
     li a{
