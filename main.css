@@ -241,12 +241,10 @@ padding-bottom: 120px;
     /*-webkit-text-fill-color: #1c1c1c6e;*/
     /*animation: animatedOne 10s linear infinite;*/
     max-width: 1920px;
-
-    cursor:default;
     overflow: hidden;
+    /*cursor: url("img/nicki\ logga\ 2\ ikon.png"),auto;*/
 
 }
-
 
 /*.three h3 span{
     
@@ -257,6 +255,7 @@ padding-bottom: 120px;
 span{
     margin-right: 5px;
     margin-left: 5px;
+    cursor: url("img/nicki\ logga\ 2\ ikon.png"), auto;
 }
 
 #one{
