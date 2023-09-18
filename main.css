@@ -225,7 +225,7 @@ padding-bottom: 120px;
     max-width: 1920px;
 }
 
-/*BAKGRUNDSFÄRGEN PÅ WELCOME*/
+/*WELCOME*/
 .three h3 {
     /*background: url(bakgrund\ hemsida\ 4.png);*/
     color: #373737;
@@ -242,7 +242,6 @@ padding-bottom: 120px;
     /*animation: animatedOne 10s linear infinite;*/
     max-width: 1920px;
     overflow: hidden;
-    /*cursor: url("img/nicki\ logga\ 2\ ikon.png"),auto;*/
 
 }
 
@@ -255,7 +254,7 @@ padding-bottom: 120px;
 span{
     margin-right: 5px;
     margin-left: 5px;
-    cursor: url("img/nicki\ logga\ 2\ ikon.png"), auto;
+    cursor: url('img/star\ cursor.png') , default;
 }
 
 #one{
@@ -316,13 +315,8 @@ span{
 
   padding-top: 50px;
   padding-bottom: 0;
-}
 
-.container2 {
-    width: 100%;
-    overflow-x: hidden;
-  
-    padding: 0;
+  cursor: default;
 }
 
 .horizontal-scrolling-items {
