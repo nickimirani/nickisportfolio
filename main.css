@@ -242,7 +242,7 @@ padding-bottom: 120px;
     /*animation: animatedOne 10s linear infinite;*/
     max-width: 1920px;
     overflow: hidden;
-
+    cursor: default;
 }
 
 /*.three h3 span{
