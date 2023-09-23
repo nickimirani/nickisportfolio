@@ -272,11 +272,13 @@ span{
     /*animation: reveal 1.5s;*/
     display: block;
     padding: 0;
+    margin-top: 15px;
 }
 
 #four{
     /*animation: reveal 1.8s;*/
    display: block;
+   margin-top: 15px;
 }
 
 
@@ -321,14 +323,13 @@ span{
 
 .horizontal-scrolling-items {
   display: flex;
-  font-size: 32px;
+  font-size: 30px;
   width: 2600px;
   color: rgb(222, 222, 222);
   animation-name: infiniteScroll;
-  animation-duration: 30s;
+  animation-duration: 40s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
- 
 
 }
 .horizontal-scrolling-items__item {
@@ -585,7 +586,7 @@ a{
     }
 
     h2{
-        margin-left: 10px;
+        margin-left: px;
     }
   }
 
