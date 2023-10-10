@@ -520,8 +520,6 @@ a{
         align-content: center;
         justify-self: center;
         justify-items: center;
-
-        padding-top: 5px;
     }
 
     html{
@@ -531,7 +529,7 @@ a{
     }
 
     main img{
-        width: 400px;
+        width: 350px;
     }
 
     #random1 img{
@@ -583,6 +581,10 @@ a{
         font-size: 11px;
     }
 
+    ul.firstpage-menu{
+        margin: 0 auto;
+    }
+
     video{
         max-width: 300px;
     }
@@ -601,19 +603,11 @@ a{
 
 }
 
-  @media only screen and (max-width: 320px) {
-    main{
-         display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            margin-left: auto;
-            margin-right: auto;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-            justify-self: center;
-            justify-items: center;
-        
+@media only screen and (max-width: 320px) {
+
+    div.content{
+        max-width: 320px;
+        width: 100%;
     }
 
     #paragraph-art{
@@ -623,6 +617,7 @@ a{
     html{
         display: flex;
         flex-wrap: wrap;
+        margin: 0 auto;
     }
 
     main img{
@@ -664,5 +659,9 @@ a{
 
     video{
         max-width: 300px;
+    }
+
+    .firstpage-menu li{
+        justify-content: center;
     }
   }
