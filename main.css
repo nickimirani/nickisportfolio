@@ -557,7 +557,7 @@ a{
     }
 
     .horizontal-scrolling-items {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     span{
@@ -599,6 +599,14 @@ a{
 
     .container{
         padding-top: 30px;
+    }
+
+    #three{
+        margin-top: 0;
+    }
+
+    #four{
+        margin-top: 0;
     }
 
 }
