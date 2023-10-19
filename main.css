@@ -49,11 +49,14 @@ p{
      }
 }
 
+.firstpage-menu{
+    display: block;
+}
 
 .firstpage-menu li{
     float: right;
     margin-right: 9%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 
@@ -61,8 +64,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-  }
+    /*overflow: hidden;*/
+}
   
 li {
     float: right;
@@ -70,7 +73,6 @@ li {
   }
   
 li a {
-    display: block;
     /*color: rgb(45, 45, 45);*/
     color: rgb(222, 222, 222);
     text-align: center;
@@ -294,6 +296,7 @@ span{
     /*animation: reveal 1.8s;*/
    display: block;
    margin-top: 15px;
+   padding-left: 20vw;
 }
 
 
@@ -323,30 +326,31 @@ span{
 /* graphic design animation text */
 @keyframes infiniteScroll {
   from {transform: translateX(0)}
-  to {transform: translateX(-50%)}
+  to {transform: translateX(-35%)}
 }
 
 .container {
   width: 100%;
   overflow-x: hidden;
-
-  padding-top: 50px;
-  padding-bottom: 0;
-
+  /*padding-top: 50px;*/
+  padding-bottom: 40px;
   cursor: default;
 }
 
 .horizontal-scrolling-items {
   display: flex;
-  font-size: 30px;
+  font-size: 1.5vw;
   width: 2600px;
   color: rgb(222, 222, 222);
   animation-name: infiniteScroll;
-  animation-duration: 40s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 
+  position:fixed;
+  background-color: white;
 }
+
 .horizontal-scrolling-items__item {
   white-space: nowrap;
 }
@@ -571,10 +575,6 @@ a{
         font-size: 40px;
     }
 
-    .horizontal-scrolling-items {
-        font-size: 14px;
-    }
-
     span{
         margin-right: 10px;
         margin-left: 10px;
@@ -609,11 +609,7 @@ a{
     }
 
     .horizontal-scrolling-items {
-        font-size: 18px;
-    }
-
-    .container{
-        padding-top: 30px;
+        font-size: 10px;
     }
 
     #three{
