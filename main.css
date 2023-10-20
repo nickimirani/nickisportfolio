@@ -30,6 +30,13 @@ body{
      }
 }
 
+#imgicon{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
 .firstpage-menu{
     display: block;
 }
@@ -69,6 +76,7 @@ li a {
 
 li a:hover{
     color: rgb(81, 80, 80);
+    transition: .5s ease;
 }
 
 .menu img{
@@ -113,7 +121,7 @@ main img{
 
 #waste:hover{
 
-    box-shadow:
+   box-shadow:
     1px 1px #373737,
     2px 2px #373737,
     3px 3px #373737,
@@ -425,7 +433,7 @@ a{
 #about-section p{
     font-family: Helvetica, sans-serif;
     width: 60%;
-
+    font-size: 14px;
 }
 
 #about-section{
@@ -436,13 +444,9 @@ a{
     justify-self: center;
     justify-items: center;
     margin: auto 0;
-
     flex-wrap: wrap;
-
     gap: 5%;
-
     justify-content:flex-end;
-
     max-width: 800px;
 }
 
