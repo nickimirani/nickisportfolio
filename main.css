@@ -511,11 +511,11 @@ a{
     }
 
     #random1 img{
-        width: 500px;
+        width: 600px;
     }
 
     #random2 img{
-        width: 500px;
+        width: 600px;
     }
 
     #random img{
@@ -523,11 +523,13 @@ a{
     }
 
     .content1 h1{
-        font-size: 20px;
+        font-size: 26px;
     }
 
     #paragraph-art{
         font-size: 12px;
+        width: 30%;
+        padding-left: 20px;
     }
 
     .work{
