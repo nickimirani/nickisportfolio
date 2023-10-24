@@ -635,16 +635,20 @@ a{
         font-size: 11px;
     }
 
-    ul.firstpage-menu{
-        margin: 0 auto;
+    .firstpage-menu li{
+        float:none;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .firstpage-menu{
+        display: flex;
+        justify-content: center;
     }
 
     video{
         max-width: 300px;
-    }
-
-    h2{
-        margin-left: px;
     }
 
     .horizontal-scrolling-items {
@@ -664,7 +668,7 @@ a{
     }
 
     #imgicon{
-        padding-bottom: 40%;
+        padding-bottom: 20%;
     }
 
 }
@@ -728,6 +732,14 @@ a{
     }
 
     .firstpage-menu li{
+        float:none;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .firstpage-menu{
+        display: flex;
         justify-content: center;
     }
   }
