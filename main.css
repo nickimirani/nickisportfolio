@@ -346,7 +346,7 @@ span{
 
 .horizontal-scrolling-items {
   display: flex;
-  font-size: 1.5vw;
+  font-size: 1vw;
   width: 2600px;
   color: rgb(222, 222, 222);
   animation-name: infiniteScroll;
@@ -358,11 +358,16 @@ span{
   background-color: white;
 }
 
+.horizontal-scrolling-items:hover{
+    color: rgb(45 45 45);
+    transition: .5s ease;
+}
+
 .horizontal-scrolling-items2 {
     display: flex;
     font-size: 1vw;
     width: 2600px;
-    color: rgb(45 45 45);
+    color: rgb(222, 222, 222);
     animation-name: infiniteScroll2;
     animation-duration: 50s;
     animation-iteration-count: infinite;
@@ -371,7 +376,12 @@ span{
     position: fixed;
     bottom: 0;
     background-color: white;
-  }
+}
+
+.horizontal-scrolling-items2:hover{
+    color: rgb(45 45 45);
+    transition: .5s ease;
+}
 
 .horizontal-scrolling-items__item {
   white-space: nowrap;
