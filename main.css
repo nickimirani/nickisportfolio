@@ -574,6 +574,8 @@ a{
         align-content: center;
         justify-self: center;
         justify-items: center;
+
+        padding: 0;
     }
 
     html{
@@ -659,6 +661,10 @@ a{
 
     #four{
         margin-top: 0;
+    }
+
+    #imgicon{
+        padding-bottom: 40%;
     }
 
 }
