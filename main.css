@@ -433,6 +433,10 @@ a{
     padding-bottom: 50px;
 }
 
+.contact p{
+    font-size: 14px;
+}
+
 #contact-background{
     color: rgb(45 45 45);
     padding-top: 50px;
