@@ -538,7 +538,6 @@ a{
 
     #paragraph-art{
         font-size: 12px;
-        width: 30%;
         padding-left: 20px;
     }
 
@@ -554,6 +553,10 @@ a{
 
     #about-section{
         display: block;
+    }
+
+    #about-section p{
+        width: 100%;
     }
 
     li a{
@@ -612,7 +615,6 @@ a{
 
     #paragraph-art{
         font-size: 10px;
-        margin-left: 15%;
     }
 
     .work{
@@ -626,10 +628,19 @@ a{
 
     #about-section{
         display: block;
+        padding-top: 100px;
     }
 
     #about-section p{
         width:100%;
+    }
+
+    .contact{
+        padding-top: 100px;
+    }
+
+    #contact-background{
+        padding-bottom: 0;
     }
 
     li a{
