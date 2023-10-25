@@ -15,7 +15,7 @@ body{
     max-width: 1920px;
     scroll-behavior: smooth;
     
-    animation: fadeInAnimation ease 3s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -176,6 +176,7 @@ main img{
 .content1 h1{
     font-size: 40px;
     width: 20%;
+    animation: reveal 1.5s;
 }
 
 .content1 p{
@@ -297,9 +298,9 @@ span{
 
 @keyframes reveal {
     0% {
-      transform: translate(0,100%);
+      transform: translate(0,50%);
     }
-    100% {
+    50% {
       transform: translate(0,0);
     }
 }
@@ -482,6 +483,10 @@ a{
     font-size: 12px;
     font-weight: 200;
     font-family: 'Raleway', sans-serif;
+}
+
+#about-section h2{
+    animation: reveal 1.5s;
 }
 
 #about-section{
