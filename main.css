@@ -364,12 +364,14 @@ span{
     color: rgb(222, 222, 222);
     background-color: white;
     text-decoration: none;
+    word-spacing: 5px;
   }
 
 .horizontal-scrolling-items2 a{
     color: rgb(222, 222, 222);
     background-color: white;
     text-decoration: none;
+    word-spacing: 5px;
 }
 
 /*.horizontal-scrolling-itemS a:hover{
