@@ -348,7 +348,7 @@ span{
 
 .horizontal-scrolling-items {
   display: flex;
-  font-size: 1vw;
+  font-size: .9vw;
   width: 2600px;
   color: rgb(222, 222, 222);
   animation-name: infiniteScroll;
@@ -358,20 +358,21 @@ span{
 
   position:fixed;
   background-color: white;
+  padding: 5px;
 }
 
 .horizontal-scrolling-items a{
     color: rgb(222, 222, 222);
     background-color: white;
     text-decoration: none;
-    word-spacing: 5px;
+    word-spacing: 10px;
   }
 
 .horizontal-scrolling-items2 a{
     color: rgb(222, 222, 222);
     background-color: white;
     text-decoration: none;
-    word-spacing: 5px;
+    word-spacing: 10px;
 }
 
 /*.horizontal-scrolling-itemS a:hover{
@@ -381,7 +382,7 @@ span{
 
 .horizontal-scrolling-items2 {
     display: flex;
-    font-size: 1vw;
+    font-size: .9vw;
     width: 2600px;
     color: rgb(222, 222, 222);
     animation-name: infiniteScroll2;
@@ -392,6 +393,7 @@ span{
     position: fixed;
     bottom: 0;
     background-color: white;
+    padding: 5px;
 }
 
 .horizontal-scrolling-items2:hover{
