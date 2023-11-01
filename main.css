@@ -20,6 +20,11 @@ body{
     animation-fill-mode: forwards;
 }
 
+h2{
+    font-size: 3vw;
+    margin-top: 5px;
+}
+
 
 @keyframes fadeInAnimation {
     0% {
@@ -333,7 +338,6 @@ span{
 .container {
   width: 100%;
   overflow-x: hidden;
-  /*padding-top: 50px;*/
   padding-bottom: 30px;
   cursor: default;
 }
@@ -359,6 +363,8 @@ span{
   position:fixed;
   background-color: white;
   padding: 5px;
+
+
 }
 
 .horizontal-scrolling-items a{
@@ -419,26 +425,18 @@ a{
 
 .footer{
     
-    padding: 100px;
-    color: white;
-    margin-top: 200px;
-    /*opacity: 80%;*/
-    /*background-image: url("bakgrund\ hemsida\ 4.png");
-    animation: animatedOne 10s linear infinite;*/
-    background-color: rgb(45 45 45);
-    font-size: 11px;
+    padding: 60px;
+    margin-top: 100px;
+    font-size: 12px;
     bottom: 0;
     left: 0;
     right: 0;
+    background-color: white;
 
     position: relative;
+    font-family: 'Raleway' , sans-serif;
     
 }
-
-/*.footer img{
-    width: 15px;
-    height:15px;
-}*/
 
 /* CONTACT */
 
@@ -504,6 +502,7 @@ a{
 
 #about-section h2{
     animation: reveal 1.5s;
+    font-size: 30px;
 }
 
 #about-section{
