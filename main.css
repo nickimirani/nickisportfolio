@@ -354,14 +354,14 @@ span{
   display: flex;
   font-size: .9vw;
   width: 2600px;
-  color: rgb(222, 222, 222);
+  background-color: white;
   animation-name: infiniteScroll;
   animation-duration: 50s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 
   position:fixed;
-  background-color: white;
+  /*background-color: white;*/
   padding: 5px;
 
 
