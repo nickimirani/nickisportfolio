@@ -381,10 +381,15 @@ span{
     word-spacing: 10px;
 }
 
-/*.horizontal-scrolling-itemS a:hover{
+.horizontal-scrolling-items a:hover{
     color: rgb(45 45 45);
-    transition: .5s ease;
-}*/
+    transition: .8s ease;
+}
+
+.horizontal-scrolling-items2 a:hover{
+    color: rgb(45 45 45);
+    transition: .8s ease;
+}
 
 .horizontal-scrolling-items2 {
     display: flex;
