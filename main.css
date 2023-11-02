@@ -21,7 +21,7 @@ body{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 5px;
 }
 
@@ -68,7 +68,7 @@ ul {
 li {
     float: right;
     margin-right: 2%;
-  }
+}
   
 li a {
     /*color: rgb(45, 45, 45);*/
@@ -138,11 +138,12 @@ main img{
     transform: translateX(3px);*/
     transform: scale(.99);
     opacity: 90%;
-    transition: .5s ease;
+    border-radius: 0;
     }
 
 #waste{
     background: none;
+    transition: all .5s ease;
 }
 
 .content > div {
