@@ -21,6 +21,7 @@ body{
     animation-fill-mode: forwards;
 }
 
+
 h2{
     font-size: 30px;
     margin-top: 5px;
@@ -43,6 +44,8 @@ h2{
     margin-right: 150px;
     float: right;
     line-height: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .intronumbers2{
@@ -50,8 +53,9 @@ h2{
     float: left;
     line-height: 10px;
     margin-left: 150px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    animation: reveal 1.5s;
 }
 
 .intronumbers a{
@@ -144,7 +148,6 @@ main{
 
 main img{
     width: 550px;
-    background-color: rgb(81, 80, 80);
 }
 
 .content{
@@ -157,12 +160,6 @@ main img{
     justify-items: center;
     margin: auto 0;
     max-width: 1500px;
-}
-
-#waste a{
-    /*transition: 1s ease;*/
-
-    transition: .5s ease;
 }
 
 #waste:hover{
@@ -403,8 +400,6 @@ span{
 
   position:fixed;
   padding: 5px;
-
-
 }
 
 .horizontal-scrolling-items a{
@@ -547,6 +542,7 @@ a{
 #about-section h2{
     animation: reveal 1.5s;
     font-size: 30px;
+    margin: 0;
 }
 
 #about-section{
