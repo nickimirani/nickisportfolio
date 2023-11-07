@@ -6,7 +6,8 @@ html{
     margin: 0 auto;
     align-content: center;
     scroll-behavior: smooth;
-    color: rgb(45 45 45);
+    color: rgb(251, 249, 246);
+    background-color: rgb(17, 17, 17);
     
 }
 
@@ -21,6 +22,10 @@ body{
     animation-fill-mode: forwards;
 }
 
+body#page1{
+    background-color: white;
+    color: rgb(45 45 45);
+}
 
 h2{
     font-size: 30px;
@@ -46,6 +51,7 @@ h2{
     line-height: 10px;
     margin-top: 80px;
     margin-bottom: 80px;
+
 }
 
 .intronumbers2{
@@ -60,12 +66,12 @@ h2{
 
 .intronumbers a{
     text-decoration: none;
-    color: rgb(45 45 45);
+    color: rgb(251, 249, 246);
 }
 
 .intronumbers2 a{
     text-decoration: none;
-    color: rgb(45 45 45);
+    color: rgb(251, 249, 246);
 }
 
 
@@ -392,7 +398,7 @@ span{
   display: flex;
   font-size: .9vw;
   width: 2600px;
-  background-color: white;
+  background-color: rgb(17, 17, 17);
   animation-name: infiniteScroll;
   animation-duration: 50s;
   animation-iteration-count: infinite;
@@ -403,15 +409,15 @@ span{
 }
 
 .horizontal-scrolling-items a{
-    color: rgb(222, 222, 222);
-    background-color: white;
+    color: rgb(251, 249, 246);
+    background-color: rgb(17, 17, 17);
     text-decoration: none;
     word-spacing: 10px;
   }
 
 .horizontal-scrolling-items2 a{
-    color: rgb(222, 222, 222);
-    background-color: white;
+    color: rgb(251, 249, 246);
+    background-color: rgb(17, 17, 17);
     text-decoration: none;
     word-spacing: 10px;
 }
@@ -430,7 +436,7 @@ span{
     display: flex;
     font-size: .9vw;
     width: 2600px;
-    color: rgb(222, 222, 222);
+    background-color: rgb(17, 17, 17);
     animation-name: infiniteScroll2;
     animation-duration: 50s;
     animation-iteration-count: infinite;
@@ -438,7 +444,6 @@ span{
   
     position: fixed;
     bottom: 0;
-    background-color: white;
     padding: 5px;
 }
 
@@ -471,7 +476,6 @@ a{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: white;
 
     position: relative;
     font-family: 'Raleway' , sans-serif;
