@@ -543,9 +543,9 @@ a{
     font-family: 'Raleway', sans-serif;
 }
 
-#about-section video{
+#about-section img{
     margin-top: 70px;
-
+    width: 650px;
 }
 
 #about-section h2{
@@ -622,6 +622,10 @@ a{
 
     #about-section p{
         width: 100%;
+    }
+
+    #about-section img{
+        width: 300px;
     }
 
     li a{
