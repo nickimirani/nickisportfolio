@@ -543,6 +543,11 @@ a{
     font-family: 'Raleway', sans-serif;
 }
 
+#about-section video{
+    margin-top: 70px;
+
+}
+
 #about-section h2{
     animation: reveal 1.5s;
     font-size: 30px;
