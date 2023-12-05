@@ -396,7 +396,7 @@ span{
 
 .horizontal-scrolling-items {
   display: flex;
-  font-size: .9vw;
+  font-size: .8vw;
   width: 2600px;
   background-color: rgb(17, 17, 17);
   animation-name: infiniteScroll;
@@ -434,7 +434,7 @@ span{
 
 .horizontal-scrolling-items2 {
     display: flex;
-    font-size: .9vw;
+    font-size: .8vw;
     width: 2600px;
     background-color: rgb(17, 17, 17);
     animation-name: infiniteScroll2;
