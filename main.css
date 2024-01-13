@@ -274,6 +274,10 @@ main img{
     max-width: 500px;
 }
 
+#random3 img{
+    width: 300px;
+}
+
 #paragraph-art{
     width: 40%;
     margin-left: 5%;
